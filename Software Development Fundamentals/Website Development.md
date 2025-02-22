@@ -1,0 +1,2 @@
+- **TCP** - (Transmission Control Protocol): A communication protocol where data is divided into smaller packets
+- **IP** - (Internet Protocol): A protocol used for addressing machines in networks
