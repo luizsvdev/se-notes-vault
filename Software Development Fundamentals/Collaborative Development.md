@@ -1,2 +1,0 @@
-- Version Control Repositories: GIT, SVN and Mercurial
-- Reuse Repositories: Maven, npm, Crates.io, PyPI
