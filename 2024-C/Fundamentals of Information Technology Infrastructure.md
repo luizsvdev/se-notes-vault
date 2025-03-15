@@ -12,7 +12,7 @@
 
 ### CPU Architecture with Two Caches  
 
-#### Diagram:
+#### Memory Access Diagram:
 ```mermaid
 graph LR;
     CPU["CPU Reg"]
@@ -24,8 +24,30 @@ graph LR;
 ```
 
 #### Definitions:  
-- **HA (Hit Rate)** – The percentage of accesses that hit in a cache level  
+- **HR (Hit Rate)** – The percentage of accesses that hit in a cache level  
 - **MR (Miss Rate)** – The percentage of accesses that miss in a cache level  
 - **AT (Access Time)** – The time required to access a memory level
 
-$AT​=AT×(100AR​)×(1+FR)$
+#### Formula:
+
+$HR_{L1}=1.0$
+$MR_{L1}=0.1$
+$MR_{L2}=0.05$
+
+$$
+EAT = (HR_{L1} \times AT_{L1}) + (MR_{L1} \times AT_{L2}) + (MR_{L1} \times MR_{L2} \times AT_{RAM})
+$$
+
+$$
+EAT = (1.0 \times 5ns) + (0.1 \times 15ns) + (0.1 \times 0.05 \times 100ns)
+$$
+
+$$
+EAT = 5ns + 1.5ns + 0.5ns
+$$
+
+$$
+EAT = 7ns
+$$
+
+
