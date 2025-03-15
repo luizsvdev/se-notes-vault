@@ -30,13 +30,17 @@ graph LR;
 
 #### Formula:
 
+$$
+EAT = (HR_{L1} \times AT_{L1}) + (MR_{L1} \times AT_{L2}) + (MR_{L1} \times MR_{L2} \times AT_{RAM})
+$$
+
+###### Example:
+
 $HR_{L1}=1.0$
 $MR_{L1}=0.1$
 $MR_{L2}=0.05$
 
-$$
-EAT = (HR_{L1} \times AT_{L1}) + (MR_{L1} \times AT_{L2}) + (MR_{L1} \times MR_{L2} \times AT_{RAM})
-$$
+
 
 $$
 EAT = (1.0 \times 5ns) + (0.1 \times 15ns) + (0.1 \times 0.05 \times 100ns)
