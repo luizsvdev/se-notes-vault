@@ -17,7 +17,7 @@ D = 32 + 16 + 0 + 4 + 0 + 1
 $$
 
 $$
-D = 53
+D = 53_{10}
 $$
 
 ### Transform Decimal → Binary
