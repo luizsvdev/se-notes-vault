@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"dc81710f3106cd56","type":"file","file":"2025-A/Fundamentals of Computing/3. Probability.md","subpath":"#Example Scenario","x":-1060,"y":-500,"width":400,"height":400},
+		{"id":"060b2bf3787199d7","type":"text","text":"40%","x":-420,"y":-440,"width":100,"height":60},
+		{"id":"4cbee84b2f421a51","type":"text","text":"60%","x":-420,"y":-220,"width":100,"height":60},
+		{"id":"218b46b55bc7dc97","type":"text","text":"95%","x":-60,"y":-380,"width":101,"height":60,"color":"5"},
+		{"id":"79e3927e5f417af9","type":"text","text":"5%","x":-60,"y":-500,"width":101,"height":60,"color":"5"},
+		{"id":"2e20805973ceb788","type":"text","text":"2%","x":-60,"y":-280,"width":101,"height":60,"color":"5"},
+		{"id":"6f6a1f6cfae7a106","type":"text","text":"98%","x":-60,"y":-160,"width":101,"height":60,"color":"5"}
+	],
+	"edges":[
+		{"id":"e0d4fef2347fe1b6","fromNode":"dc81710f3106cd56","fromSide":"right","toNode":"060b2bf3787199d7","toSide":"left","label":"Factory A"},
+		{"id":"7632783ef5db661e","fromNode":"dc81710f3106cd56","fromSide":"right","toNode":"4cbee84b2f421a51","toSide":"left","label":"Factory B"},
+		{"id":"a291dbba54bf4b32","fromNode":"060b2bf3787199d7","fromSide":"right","toNode":"79e3927e5f417af9","toSide":"left","label":"Defective"},
+		{"id":"fc9b3fdeb123dc81","fromNode":"060b2bf3787199d7","fromSide":"right","toNode":"218b46b55bc7dc97","toSide":"left","label":"Working"},
+		{"id":"682323f15a29ef65","fromNode":"4cbee84b2f421a51","fromSide":"right","toNode":"2e20805973ceb788","toSide":"left","label":"Defective"},
+		{"id":"e5c4cfb3cec3517e","fromNode":"4cbee84b2f421a51","fromSide":"right","toNode":"6f6a1f6cfae7a106","toSide":"left","label":"Working"}
+	]
+}
