@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"dc81710f3106cd56","type":"file","file":"2025-A/Fundamentals of Computing/3. Probability.md","subpath":"#Example Scenario","x":-1060,"y":-500,"width":400,"height":400},
+		{"id":"dc81710f3106cd56","type":"file","file":"2025-A/Fundamentals of Computing/3. Probability.md","subpath":"#Example Scenario","x":-1060,"y":-500,"width":380,"height":400},
 		{"id":"060b2bf3787199d7","type":"text","text":"40%","x":-420,"y":-440,"width":100,"height":60},
 		{"id":"4cbee84b2f421a51","type":"text","text":"60%","x":-420,"y":-220,"width":100,"height":60},
 		{"id":"218b46b55bc7dc97","type":"text","text":"95%","x":-60,"y":-380,"width":101,"height":60,"color":"5"},
